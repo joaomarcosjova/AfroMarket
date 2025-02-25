@@ -1,6 +1,6 @@
 'use client'
 import { productsDummyData, userDummyData } from "@/assets/assets";
-import { useUser } from "@clerk/nextjs";
+import { useAuth, useUser } from "@clerk/nextjs";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { createContext, useContext, useEffect, useState } from "react";
@@ -36,7 +36,7 @@ export const AppContextProvider = (props) => {
             }
 
             const token = await getToken()
-            const {data} = await axios.get('/api/user/data'.{ headers: {Authorization:`Bearer ${token}` }})
+            const {data} = await axios.get('/api/user/data',{ headers: {Authorization:`Bearer ${token}` }})
 
             if (data.success) {
                 setUserData(data.user)
