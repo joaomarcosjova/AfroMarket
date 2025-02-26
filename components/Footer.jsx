@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © GreatStack.dev All Right Reserved.
+      Crafted by Marcos Jova for Bridge Labs Technical Assessment
       </p>
     </footer>
   );
