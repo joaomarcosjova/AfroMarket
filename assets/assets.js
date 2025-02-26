@@ -3,6 +3,7 @@ import search_icon from "./search_icon.svg";
 import user_icon from "./user_icon.svg";
 import cart_icon from "./cart_icon.svg";
 import add_icon from "./add_icon.svg";
+import support_icon from "./support_icon.svg";
 import order_icon from "./order_icon.svg";
 import instagram_icon from "./instagram_icon.svg";
 import facebook_icon from "./facebook_icon.svg";
@@ -51,6 +52,7 @@ export const assets = {
   logo,
   search_icon,
   user_icon,
+  support_icon,
   cart_icon,
   add_icon,
   order_icon,
@@ -98,9 +100,17 @@ export const assets = {
   checkmark
 };
 
-export const BagIcon = () => {
+export const SupportIcon = () => {
   return (
     <svg className="w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 10v3a4 4 0 0 0 4 4h1v-6H4a1 1 0 0 0-1 1Zm18 0v3a4 4 0 0 1-4 4h-1v-6h4a1 1 0 0 1 1 1ZM12 2a7 7 0 0 1 7 7v3a5 5 0 0 1-5 5h-4a5 5 0 0 1-5-5v-3a7 7 0 0 1 7-7Z" />
+</svg>
+  )
+}
+
+export const BagIcon = () => {
+  return (
+    <svg className=" w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24">
       <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 10V6a3 3 0 0 1 3-3v0a3 3 0 0 1 3 3v4m3-2 .917 11.923A1 1 0 0 1 17.92 21H6.08a1 1 0 0 1-.997-1.077L6 8h12Z" />
     </svg>
   )
