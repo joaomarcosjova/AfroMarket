@@ -1,6 +1,6 @@
 import connectDB from "@/config/db";  // Import the database connection function
 import authSeller from "@/lib/authSeller";  // Import function to check if the user is a seller
-import Product from "@/models/product";  // Import the Product model
+import Product from "@/models/Product";  // Import the Product model
 import { getAuth } from "@clerk/nextjs/server";  // Import authentication function from Clerk
 import { v2 as cloudinary } from "cloudinary";  // Import Cloudinary for image upload
 import { NextResponse } from "next/server";  // Import Next.js response handler
