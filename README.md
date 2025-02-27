@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌍 AfroMarket - Multi-Vendor eCommerce Platform
 
-## Getting Started
+Welcome to **AfroMarket**! 🛍️🚀 A **Next.js**-powered multi-vendor eCommerce platform that allows sellers to manage their products effortlessly. Built with **Inngest, Cloudinary, MongoDB (Mongoose)**, AfroMarket provides a seamless shopping experience for buyers and a powerful dashboard for sellers. 💼💰
 
-First, run the development server:
+---
 
+## ✨ Features
+
+✅ **Multi-Vendor Support** – Sellers can register and manage their own products.  
+✅ **Seller Dashboard** – Create, update, and delete products with ease.  
+✅ **Next.js 13+ (App Router)** – Modern, fast, and SEO-friendly architecture.  
+✅ **Cloudinary Integration** – Upload and manage product images efficiently.  
+✅ **MongoDB with Mongoose** – Secure and scalable database.  
+✅ **Inngest for Background Jobs** – Ensuring smooth processing of tasks.  
+✅ **Optimized for Performance** – Fast load times & smooth user experience.  
+✅ **Authentication & Authorization** – Secure access for buyers and sellers.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Backend**: Next.js API Routes, Inngest
+- **Database**: MongoDB (Mongoose ODM)
+- **Image Storage**: Cloudinary
+- **Authentication**: NextAuth.js / Custom Auth
+- **Deployment**: Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ git clone https://github.com/your-username/afromarket.git
+ cd afromarket
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
+```bash
+ npm install  # or yarn install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3️⃣ Configure Environment Variables
+Create a `.env` file and add:
+```env
+# Public Environment Variables
+NEXT_PUBLIC_CURRENCY=$
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Private Environment Variables
+CLERK_SECRET_KEY=
+MONGODB_URI=
+INNGEST_SIGNING_KEY=
+INNGEST_EVENT_KEY=
 
-## Learn More
+# Cloudinary
+CLOUDINARY_CLOUD_NAME =
+CLOUDINARY_API_KEY =
+CLOUDINARY_API_SECRET =
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 4️⃣ Run the Development Server
+```bash
+ npm run dev  # or yarn dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+🔹 **Seller Dashboard:** Manage your store efficiently.  
+🔹 **Product Listings:** Beautiful product displays.  
+🔹 **Secure Checkout:** Easy and safe transactions.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_(Add screenshots here)_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛒 Future Improvements
+
+🔜 **Stripe Integration** – Secure payments.  
+🔜 **Order Tracking System** – Real-time order status updates.  
+🔜 **AI-Powered Recommendations** – Personalized shopping experience.  
+
+---
+
+## 🎉 Contributing
+
+Want to help make AfroMarket even better? Fork this repo, make your changes, and submit a PR! 💡🔥
+
+---
+
+## 💬 Connect with Us
+
+📧 **Email:** [marcosjova3@gmail.com](mailto:marcosjova3@gmail.com)  
+🌍 **Website:**  (https://afromarket.vercel.app)   
+🐦 **Linkedin:** [[@joaomarcosjova](https://www.linkedin.com/in/joaomarcosjova/)]  
+
+
