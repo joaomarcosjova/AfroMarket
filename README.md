@@ -68,23 +68,16 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📸 Screenshots
+### 🚨 Please login with this user credentials:
+```
+user email - vajepe9357@btcours.com
 
-🔹 **Seller Dashboard:** Manage your store efficiently.  
-🔹 **Product Listings:** Beautiful product displays.  
-🔹 **Secure Checkout:** Easy and safe transactions.  
+password - vajepe9357@btcours.com
 
-_(Add screenshots here)_
+You are free to create also a new user account but it will not have seller role therefore you won't be able to  access the seller dashboard
+```
 
----
 
-## 🛒 Future Improvements
-
-🔜 **Stripe Integration** – Secure payments.  
-🔜 **Order Tracking System** – Real-time order status updates.  
-🔜 **AI-Powered Recommendations** – Personalized shopping experience.  
-
----
 
 ## 🎉 Contributing
 
@@ -92,7 +85,7 @@ Want to help make AfroMarket even better? Fork this repo, make your changes, and
 
 ---
 
-## 💬 Connect with Us
+## 💬 Let's Connect 
 
 📧 **Email:** [marcosjova3@gmail.com](mailto:marcosjova3@gmail.com)  
 🌍 **Website:**  (https://afromarket.vercel.app)   
