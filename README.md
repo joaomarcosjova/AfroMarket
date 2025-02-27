@@ -32,8 +32,8 @@ Welcome to **AfroMarket**! 🛍️🚀 A **Next.js**-powered multi-vendor eComme
 
 ### 1️⃣ Clone the Repository
 ```bash
- git clone https://github.com/your-username/afromarket.git
- cd afromarket
+ git clone https://github.com/joaomarcosjova/AfroMarket.git
+ cd AfroMarket
 ```
 
 ### 2️⃣ Install Dependencies
